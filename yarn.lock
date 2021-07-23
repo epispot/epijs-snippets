@@ -10,15 +10,15 @@
     "regenerator-runtime" "^0.13.4"
 
 "@epispot/epijs@^2.0.0":
-  "integrity" "sha512-iIvN8hpmZ5b4uWZapoNetnnYElkOQhaa9ZmglRdiu8nnW+fpuU/Y8KpBcAjLqTkC0iOE9zjegXCIFODpc7O0DA=="
-  "resolved" "https://registry.npmjs.org/@epispot/epijs/-/epijs-2.0.0.tgz"
-  "version" "2.0.0"
+  "integrity" "sha512-XOQeIyMERFb2Nj7TGxIQkgL9UmW60qphfnlVDLkBQNGBGNnYKCwg7Dygm3IZw2936PUR9mIuvv33fzSnULDgXw=="
+  "resolved" "https://registry.npmjs.org/@epispot/epijs/-/epijs-2.1.0.tgz"
+  "version" "2.1.0"
   dependencies:
-    "chart.js" "^3.0.2"
-    "gaussian" "^1.2.0"
-    "mathjs" "^9.4.2"
+    "chart.js" "~3.4.1"
+    "gaussian" "~1.2.0"
+    "mathjs" "~9.4.2"
 
-"chart.js@^3.0.2":
+"chart.js@~3.4.1":
   "integrity" "sha512-0R4mL7WiBcYoazIhrzSYnWcOw6RmrRn7Q4nKZNsBQZCBrlkZKodQbfeojCCo8eETPRCs1ZNTsAcZhIfyhyP61g=="
   "resolved" "https://registry.npmjs.org/chart.js/-/chart.js-3.4.1.tgz"
   "version" "3.4.1"
@@ -43,7 +43,7 @@
   "resolved" "https://registry.npmjs.org/fraction.js/-/fraction.js-4.1.1.tgz"
   "version" "4.1.1"
 
-"gaussian@^1.2.0":
+"gaussian@~1.2.0":
   "integrity" "sha512-Pz/InFmDZ6VqCbXF+2+O6USIbPUPWhJ7DnqrZKfo9mMHszCd4pBad3WCVa9ruzzrBizYonsv0ZBmuv4rR8NRQg=="
   "resolved" "https://registry.npmjs.org/gaussian/-/gaussian-1.2.0.tgz"
   "version" "1.2.0"
@@ -53,7 +53,7 @@
   "resolved" "https://registry.npmjs.org/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz"
   "version" "0.7.1"
 
-"mathjs@^9.4.2":
+"mathjs@~9.4.2":
   "integrity" "sha512-5EEJXnWOzLDgMHSFyw623nH+MTBZxquWwXtrzTsingOouJJ6UZG2VNO1lwH31IMt9aMno1axO6TYleIP4YSDaQ=="
   "resolved" "https://registry.npmjs.org/mathjs/-/mathjs-9.4.4.tgz"
   "version" "9.4.4"
