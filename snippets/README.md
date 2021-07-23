@@ -4,7 +4,7 @@ Code snippets for the EpiJS package.
 
 ## What are these?
 
-These snippets are a collection of random code that can help you get things done quicker, which might take a long time.
+These snippets are a collection of random code snippets that can help you get things done quicker, which might take a long time.
 
 ## How do I use them?
 
