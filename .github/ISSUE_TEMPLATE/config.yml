@@ -1,0 +1,12 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Get help in GitHub Discussions
+    url: https://github.com/epispot/epijs/discussions
+    about: For any questions on installation, usage, etc.
+  - name: EpiJS Documentation
+    url: https://epi.js.org
+    about: Documentation for EpiJS
+  - name: But how can I contribute to EpiJS?
+    url: https://github.com/epispot/EpiJS
+    about: Start contributing to the EpiJS repo.

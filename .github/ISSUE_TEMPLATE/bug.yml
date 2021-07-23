@@ -1,0 +1,56 @@
+name: I found a bug
+description: "There's a problem. You need answers. Fill this out."
+title: "[Bug]: "
+labels: [bug]
+assignees:
+  - Quantalabs
+body:
+  - type: textarea
+    attributes:
+      render: shell
+      label: "What was your error message? (Copy and paste the error, and be sure to remove sensitive info)"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "What were you trying to do?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      render: JavaScript
+      label: "What code were you running? (Copy and paste the code)"
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      description: Check which values are true for you environment
+      options:
+        - label: OS - Windows
+        - label: OS - MacOS
+        - label: OS - Linux
+        - label: OS - Windows - Windows Subsystem for Linux
+  - type: input
+    attributes:
+      label: NodeJS Version
+      description: Your NodeJS version. If you were running this on the web, skip this and fill out the next field.
+      placeholder: "Node 14"
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    attributes:
+      render: shell
+      label: Step-by-step reproduction instructions
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Notes (Optional)

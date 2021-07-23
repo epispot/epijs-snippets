@@ -1,0 +1,21 @@
+{
+  "name": "epijs-snippets",
+  "version": "1.0.0",
+  "description": "Collection of EpiJS code snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epispot/epijs-snippets.git"
+  },
+  "scripts": {
+    "test": "bash scripts/test.sh"
+  },
+  "author": "epispot",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/epispot/epijs-snippets/issues"
+  },
+  "homepage": "https://github.com/epispot/epijs-snippets#readme",
+  "dependencies": {
+    "@epispot/epijs": "^2.0.0"
+  }
+}
