@@ -18,20 +18,20 @@ const fs = require('fs');
  * saveModel(model, 'file.json');
  */
 function saveModel(model, output, file_type='.json') {
-    var jsonout = {
+    let jsonout = { // skipcq: JS-0242
 		"compartments": {
 
 		},
 		"key": model.key
 	}
-	for (var x in model.compartments) {
-		jsonout.compartments[model.compartments[x][1]] = model.compartments[x][0]
+	for (let x in model.compartments) { // skipcq: JS-0242
+		jsonout.compartments[model.compartments[x][1]] = model.compartments[x][0] // skipcq: JS-0243
 	}
 
 	if (file_type === ".json") {
 		fs.writeFileSync(output, JSON.stringify(jsonout, null, 2))
 	} else if (file_type === ".js") {
-		fs.writeFileSync(output, "module.exports = " + JSON.stringify(jsonout, null, 2))
+		fs.writeFileSync(output, `module.exports = ${JSON.stringify(jsonout, null, 2)}`)
 	}
 }
 

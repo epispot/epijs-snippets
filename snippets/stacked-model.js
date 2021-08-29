@@ -15,17 +15,17 @@ const epijs = require('@epispot/epijs')
  * @returns {Object} - The chart object, if needed for further modification.
  * @example 
  * 
- * var model = sir(4, 9999, 1, 100, 1/21, 10000, true)
+ * let model = sir(4, 9999, 1, 100, 1/21, 10000, true)
  * 
  * stack(model, document.getElementById('canvas'), 100, ['#ff0000', '#ffa500', '#ffff00', '#00ff00'])
 */
 function stack (model, canvas, days, colors=null) {
-    let plot = epijs.plots.plot(model, canvas, days, colors, {
+    const plot = epijs.plots.plot(model, canvas, days, colors, {
         responsive: true,
         title: {display: true, text: 'Total Cases'}, 
         scales: {yAxes: [{ticks: {beginAtZero: true}}], y: {stacked: true, display: true}}
     })
-    let newplot = epijs.plots.manipulate(plot, "fill", true)
+    const newplot = epijs.plots.manipulate(plot, "fill", true)
 
     return newplot
 }
