@@ -7,7 +7,7 @@
     "url": "git+https://github.com/epispot/epijs-snippets.git"
   },
   "scripts": {
-    "test": "bash scripts/test.sh"
+    "lint": "eslint snippets/**.js"
   },
   "author": "epispot",
   "license": "GPL-3.0",
@@ -17,5 +17,8 @@
   "homepage": "https://github.com/epispot/epijs-snippets#readme",
   "dependencies": {
     "@epispot/epijs": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
