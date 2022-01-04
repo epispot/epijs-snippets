@@ -3,11 +3,11 @@ Welcome to the contributing guidelines! You're here to start contributing, so le
 
 ## First Steps
 
-First fork the repo, and then run this:
+First fork the repo and clone it onto your computer, and then run this:
 ```sh
 bash scripts/build.sh
 ```
-This will clone your forked repo, install dependencies, and give you info on how to go about the repo. Once you've installed everything, you can go and add your code snippet/JSON model to the repo.
+This will install dependencies, and give you info on how to go about the repo. Once you've installed everything, you can go and add your code snippet/JSON model to the repo.
 
 ## Need help?
 
