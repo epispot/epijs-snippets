@@ -1,14 +1,3 @@
-echo "Cloning github repo"
-
-read -p "GitHub Username: " USERNAME
-
-repo="https://github.com/"$USERNAME"/epijs-snippets.git"
-git clone $repo
-
-cd epijs-snippets
-
-echo -e "\033[32mCompleted clone!\033[0m"
-
 echo "Installing dependencies..."
 
 read -p "Use yarn? (Y/n): " YARN
